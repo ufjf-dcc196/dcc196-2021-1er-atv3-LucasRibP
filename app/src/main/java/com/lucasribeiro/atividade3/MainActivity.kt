@@ -2,10 +2,6 @@ package com.lucasribeiro.atividade3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
-import android.text.Editable
-import android.text.TextWatcher
-import android.view.View
 import android.widget.*
 import androidx.core.widget.addTextChangedListener
 
