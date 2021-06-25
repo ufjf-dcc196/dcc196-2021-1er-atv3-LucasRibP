@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Atividade 3</string>
+    <string name="title">Calculadora</string>
+    <string name="defaultOperation">+</string>
+    <string name="minusRadioLabel">-</string>
+    <string name="timesRadioLabel">*</string>
+    <string name="dividedRadioLabel">/</string>
+    <string name="resultsTitle">Resultado</string>
+    <string name="plusRadioLabel">+</string>
+    <string name="hintN1">Primeiro Número</string>
+    <string name="hintN2">Segundo Número</string>
 </resources>
