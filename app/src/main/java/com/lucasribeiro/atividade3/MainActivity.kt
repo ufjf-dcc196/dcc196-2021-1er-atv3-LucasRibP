@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         n2TextField = findViewById<EditText>(R.id.n2TextField)
         radioGrupoOperation = findViewById<RadioGroup>(R.id.radioGroupOperation)
         resultView = findViewById<TextView>(R.id.resultText)
+
+
+        n1TextField!!.addTextChangedListener { calcular() }
+        n2TextField!!.addTextChangedListener { calcular() }
+        radioGrupoOperation!!.setOnCheckedChangeListener { radioGroup, i -> calcular()}
     }
 
     fun calcular(){
